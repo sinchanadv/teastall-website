@@ -1,0 +1,62 @@
+.navbar {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.drop-content{
+    background-color: #00b4d8;
+    width: 150%;
+    left: -30%;
+    right: 50%
+}
+.logo{
+    margin: unset;
+    align-items: center;
+    border-radius: unset;
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo-img{
+    width: 50%;
+    position: relative;
+}
+#tea-desc{
+    display: block;
+    width: 50%;
+}
+.one{
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+}
+.two{
+    font-size: 0.9rem;
+    color: white;
+    font-style: italic;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    margin: unset;
+    width: 150px;
+}
+.menu ul{
+    background-color: inherit;
+    
+}
+.heading{
+    width: 50%;
+}
+.discount{
+    width: 35%;
+}
+.card{
+    margin: unset;
+    width: 25%;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,39 @@
+.menu ul{
+    flex-direction: row;
+    background-color: #13a3c0;
+}
+.menu ul li{
+    border: none;
+    background-color: inherit;
+}
+.drop-content{
+    z-index: 2;
+    outline: none;
+    background-color: #13a3c0;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.left,.right{
+    width: 100%;
+    height: unset;
+}
+.left{
+    border-right: none;
+}
+.left a,.right a{
+    border-bottom: 2px solid white;
+}
+.right a:last-child{
+    border-bottom: none;
+}
+[class*=col-]{
+    width: 45%;
+    float: left;
+}
+.card{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.map,.desc{
+    width: 100%;
+}
